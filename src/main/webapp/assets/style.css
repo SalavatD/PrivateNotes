@@ -1,0 +1,221 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Verdana, Arial, Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0 0 0 0;
+}
+
+a {
+    color: #000;
+}
+
+input[type="text"],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border-color 0.15s linear, background 0.15s linear;
+    -moz-transition: border-color 0.15s linear, background 0.15s linear;
+    -ms-transition: border-color 0.15s linear, background 0.15s linear;
+    -o-transition: border-color 0.15s linear, background 0.15s linear;
+    transition: border-color 0.15s linear, background 0.15s linear;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    background: #fafafa;
+    border-color: #999999;
+    outline: none;
+}
+
+label {
+    text-align: left;
+    display: block;
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: #4d4d4d;
+}
+
+/*ui*/
+.download_file_button {
+    width: 100%;
+}
+
+.button {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    color: #333;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    margin: 0;
+    line-height: 2rem;
+    text-align: center;
+    cursor:pointer;
+}
+
+.primary_button {
+    background-color: #960000;
+    border-radius: 5px;
+    border: 1px solid #960000;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    margin: 0;
+    line-height: 2rem;
+    text-align: center;
+    cursor:pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/*header*/
+.header_bg {
+    background-color: #960000;
+    color: #fff;
+}
+
+.header {
+    text-align: left;
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 740px;
+    height: 74px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 1rem;
+    margin: 0;
+    float: left;
+    width: 230px;
+}
+
+.header h1 a {
+    float: left;
+    padding-inline: 5px;
+}
+
+.header h2 {
+    font-weight: 300;
+    font-size: 0.78rem;
+    color: #ddd;
+    margin: 0;
+    float: left;
+    width: 220px;
+    padding-top: 14px;
+}
+
+/*content*/
+.content {
+    background-color: #fff;
+    padding: 5px 0 1.8em 0;
+}
+
+.content > div {
+    text-align: left;
+    margin: 0em auto;
+    padding: 0 10px;
+    width: 760px;
+}
+
+.content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.2em 0;
+}
+
+.content input[type="text"],
+.content select {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.content textarea {
+    background-color: #ffface;
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.9rem;
+    font-family: "Lucida Console", Monaco, monospace;
+    height: 250px;
+    margin-bottom: 1em;
+    border: none;
+    box-shadow: none;
+}
+
+.large_font {
+    font-size: xxx-large;
+}
+
+/*footer*/
+.footer {
+    background-color: #f1f1f1;
+    color: #888;
+    font-size: 0.8rem;
+    padding: 1em 0 0 0;
+}
+
+.footer a {
+    color: #888;
+}
+
+.footer > div {
+    margin: 0 auto;
+    width: 760px;
+}
+
+.footnote {
+    font-size: 0.7rem;
+    padding: 1em;
+}
